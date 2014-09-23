@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SecureCircle</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="show">Show</string>
+    <string name="help">Help</string>
+    <string name="rowheader">Select Apps from the list to scan</string>
+    <string name="scan">Scan</string>
+    <string name="select">Select All</string>
+    <string name="clear">Clear</string>
+    <string name="stop">Stop</string>
+    <string name="done">Done</string>
+    <string name="scanning">Scanning&#8230;</string>
+    <string name="siginfo">Scan an app signature for malware</string>
+    <string name="batteryinfo">Analyze apps battery usage</string>
+    <string name="riskcheck">Risk Check</string>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="rgreen">#ADFF2F</color>
+    <color name="red">#FF6347</color>
+    <color name="grey">#ff444444</color>
+
+
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_scan_info">ScanInfoActivity</string>
+
+</resources>

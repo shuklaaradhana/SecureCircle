@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.5" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <package id="1" language="java" name="com.enigma.cmpe.controller" project="bookmarkit" 
+    file="/bookmarkit/src/main/java/com/enigma/cmpe/controller" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="187" x="283" y="24"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <class id="2" language="java" name="com.enigma.cmpe.controller.BoardController" project="bookmarkit" 
+    file="/bookmarkit/src/main/java/com/enigma/cmpe/controller/BoardController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="227" width="256" x="6" y="164"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.enigma.cmpe.controller.HomeController" project="bookmarkit" 
+    file="/bookmarkit/src/main/java/com/enigma/cmpe/controller/HomeController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="220" x="272" y="163"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.enigma.cmpe.controller.SessionController" project="bookmarkit" 
+    file="/bookmarkit/src/main/java/com/enigma/cmpe/controller/SessionController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="234" x="500" y="165"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.enigma.cmpe.controller.TackController" project="bookmarkit" 
+    file="/bookmarkit/src/main/java/com/enigma/cmpe/controller/TackController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="228" width="225" x="742" y="164"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

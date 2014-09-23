@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@color/black" >
+
+    <RelativeLayout
+        android:id="@+id/rl_heading"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="@color/black" >
+
+        <Button
+            android:id="@+id/scanbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="24dp"
+            android:onClick="onClickScan"
+            android:text="@string/scan"
+            android:textColor="@color/rgreen"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+	    
+
+    <ScrollView android:id="@+id/ScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        >
+
+<!--         <LinearLayout -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_margin="2dip" -->
+<!--             android:baselineAligned="false" > -->
+
+            <TableLayout
+                android:id="@+id/app_table"
+                android:layout_width="wrap_content"
+                android:layout_height="270dp"
+                android:layout_weight="0.95"
+                android:padding="10dp">
+                
+            </TableLayout>
+<!--         </LinearLayout> -->
+
+    </ScrollView>
+</LinearLayout>
